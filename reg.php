@@ -1,10 +1,10 @@
 <?php
 
-$Leads =$_POST['leads'];
+$lead =$_POST['lead'];
 
 
-$name=$leads['_embedded']['items'][0]['name'];
-$email=$leads['_embedded']['items']['name:Email'];
+$name=$lead['_embedded']['items'][0]['name'];
+$email=$lead['_embedded']['items']['name:Email'];
 
 //БД не подключал так как получал только пустой массив данных , видимо проблемы с макхост
 
